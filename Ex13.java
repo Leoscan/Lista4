@@ -13,7 +13,7 @@ public class Ex13 {
 		idade[i] = entrada.nextInt();
 		
 		System.out.print("Escreva a altura: ");
-		altura[i] = entrada.nextInt();
+		altura[i] = entrada.nextFloat();
 		}
 		
 		int velhoi = 0;
