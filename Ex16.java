@@ -11,7 +11,9 @@ public class Ex16 {
 		
 		for(int i = 0; i < n; i++) {
 			System.out.print("Valor: ");
+			do {
 			valores[i] = entrada.nextInt();
+			} while (valores[i] > 20 || valores[i] < 0);
 		}
 		
 		for(int i = 0; i < n; i++) {
