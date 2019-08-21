@@ -10,8 +10,8 @@ public class Ex16 {
 		int valores[] = new int[n];
 		
 		for(int i = 0; i < n; i++) {
-			System.out.print("Valor: ");
 			do {
+			System.out.print("Valor: ");
 			valores[i] = entrada.nextInt();
 			} while (valores[i] > 20 || valores[i] < 0);
 		}
